@@ -2,7 +2,6 @@
 import sys
 import socket
 
-sys.path.insert(0, '../../osed-scripts')
 from utils import RopChain, sanity_check, get_connection
 
 def get_pattern():
