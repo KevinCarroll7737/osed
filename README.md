@@ -11,7 +11,7 @@ Basics:
 * `dc esp` : display char esp
 * `dw esp L4` : display word esp + length 4
 * `dt ntdll!_TEB` : display type of TEB aka dumping struct
-*  `u <0xstart> : unasm an address
+*  `u <0xstart>` : unasm an address
 
 Reverse:
 
