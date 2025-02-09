@@ -15,6 +15,9 @@ Basics:
 Reverse:
 
 * dds esp+2c0 L4 (check if 0x2c0 bytes fit on the stack)
+* db esp - 10 L20 (check bad chars)
+
 ## MSF
+
 * msf-pattern_create -l 800
 * msf-pattern_offset -l 800 -q 41424344
