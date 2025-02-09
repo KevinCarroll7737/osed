@@ -1,6 +1,6 @@
 # OSED
 
-![image](https://github.com/user-attachments/assets/6557bb96-836f-48e8-b0c6-3e6019f3e76f)
+![image](https://github.com/user-attachments/assets/1964c089-4a89-457b-b370-cbed76354f11)
 
 ## WinDBG
 
