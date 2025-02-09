@@ -8,6 +8,7 @@ Commands: https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmd
 
 Basics:
 
+* `bp <0xaddress>` : set breakpoint
 * `? <0xstart> - <0xend>` : check bytes between addresses
 * `dd esp` : display dword esp
 * `dc esp` : display char esp
