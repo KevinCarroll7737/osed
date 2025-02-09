@@ -23,6 +23,6 @@ Reverse:
 * msf-pattern_offset -l 800 -q 41424344
 * msf-nasm_shell
 ```
-jnasm > jmp esp
+nasm > jmp esp
 00000000  FFE4              jmp esp
 ```
