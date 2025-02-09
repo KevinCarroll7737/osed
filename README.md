@@ -8,3 +8,6 @@ Commands: https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmd
 * dc esp (display char esp)
 * dw esp L4 (display word esp + length 4)
 * dt ntdll!_TEB (display type of TEB aka dumping struct)
+
+## MSF
+* msf-pattern_create -l 800
