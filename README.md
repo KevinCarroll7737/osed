@@ -18,6 +18,7 @@ Basics:
 
 Reverse:
 
+* `0x10090c83` -> `\x83\x0c\x09\x10` : (un)converting hex to python for LE (AMD64 and x86)
 * `dds esp+2c0 L4` : check if 0x2c0 bytes fit on the stack
 * `db esp - 10 L20` : check bad chars
 * `lm m libssp` : list loaded modules that match "libssp" (`u <0xstart>` : unasm an address)
