@@ -11,3 +11,4 @@ Commands: https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmd
 
 ## MSF
 * msf-pattern_create -l 800
+* msf-pattern_offset -l 800 -q 41424344
