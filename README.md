@@ -17,7 +17,7 @@ Reverse:
 
 * `dds esp+2c0 L4` : check if 0x2c0 bytes fit on the stack
 * `db esp - 10 L20` : check bad chars
-* `lm m libssp`
+* `lm m libssp` : list loaded modules that matche "libssp" (`u <0xstart>` : unasm an address)
 * `s -b <0xstart> <0xend> 0xff 0xe4` : search bytes FFE4 aka JMP ESP in memory (__Make sure no bad chars in addresses return__)
 
 ## MSF
