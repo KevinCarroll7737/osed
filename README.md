@@ -12,7 +12,7 @@ Basics:
 * `dw esp L4` (display word esp + length 4)
 * `dt ntdll!_TEB` (display type of TEB aka dumping struct)
 * `lm m libssp`
-* `s -b <0xstart> <0xend> 0xff 0xe4` (search bytes FFE4 aka JMP ESP in memory)(**Make sure no bad chars in addresses return**)
+* `s -b <0xstart> <0xend> 0xff 0xe4` (search bytes FFE4 aka JMP ESP in memory) (<u>Make sure no bad chars in addresses return</u>)
 
 Reverse:
 
