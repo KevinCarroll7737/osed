@@ -2,6 +2,17 @@
 
 ![image](https://github.com/user-attachments/assets/1964c089-4a89-457b-b370-cbed76354f11)
 
+## Methodology
+
+1. Crash the application
+2. Controlling EIP
+3. Locating space for BOF
+4. Checking bad chars
+5. Redirecting execution flow
+6. Generating shellcode
+7. Getting the shellcode
+8. Improving the exploit
+
 ## WinDBG
 
 Commands: https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/commands
