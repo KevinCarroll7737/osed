@@ -13,6 +13,10 @@
 7. Getting the shellcode
 8. Improving the exploit
 
+## Links
+
+https://github.com/epi052/osed-scripts?tab=readme-ov-file#install-monash
+
 ## WinDBG
 
 Commands: https://learn.microsoft.com/en-us/windows-hardware/drivers/debuggercmds/commands
