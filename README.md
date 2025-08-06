@@ -33,6 +33,10 @@ Basics:
 * `dt ntdll!_TEB` : display type of TEB aka dumping struct
 *  `u <0xstart>` : unasm an address
 
+Mona:
+* `.load pykd.pyd`: load pykd
+* `!py mona config` confirm mona runs
+  
 Reverse:
 
 * `0x10090c83` -> `\x83\x0c\x09\x10` : (un)converting hex to python for LE (AMD64 and x86)
