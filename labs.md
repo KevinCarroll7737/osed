@@ -10,9 +10,9 @@ The first Cs from our buffer landed between EIP and ESP.
 
 Just adding an offset of Cs to calculate the shellcode length (Ds)
 
-* <img width="1123" height="296" alt="VirtualBoxVM_RSKUQ1txBE" src="https://github.com/user-attachments/assets/ae802a47-36ce-4598-84ac-59ead82e204b" />
+> <img width="1123" height="296" alt="VirtualBoxVM_RSKUQ1txBE" src="https://github.com/user-attachments/assets/ae802a47-36ce-4598-84ac-59ead82e204b" />
 
-* <img width="2544" height="652" alt="image" src="https://github.com/user-attachments/assets/4b511429-b302-44da-8cdd-471580528989" />
+> <img width="2544" height="652" alt="image" src="https://github.com/user-attachments/assets/4b511429-b302-44da-8cdd-471580528989" />
 
 Check if there's enough space for a shellcode
 
@@ -20,4 +20,4 @@ Check if there's enough space for a shellcode
 
 > `? 01cb7720 - esp`
 
-* <img width="1277" height="439" alt="VirtualBoxVM_0BxZsYkiBF" src="https://github.com/user-attachments/assets/b025d398-28b1-438a-a89c-22e1a5190014" />
+> <img width="1277" height="439" alt="VirtualBoxVM_0BxZsYkiBF" src="https://github.com/user-attachments/assets/b025d398-28b1-438a-a89c-22e1a5190014" />
