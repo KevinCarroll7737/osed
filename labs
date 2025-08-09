@@ -1,0 +1,6 @@
+# Labs
+
+## exploiting-stack-overflows
+
+The first Cs from our buffer landed between EIP and ESP.
+`dds esp -10 L8`
