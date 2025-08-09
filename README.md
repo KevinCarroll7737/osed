@@ -33,9 +33,14 @@ Basics:
 * `dt ntdll!_TEB` : display type of TEB aka dumping struct
 *  `u <0xstart>` : unasm an address
 
-Mona:
+Mona: 
 * `.load pykd.pyd`: load pykd
 * `!py mona modules`: list modules
+* `!py mona config -set workingfolder "c:\%p"`: set workingfolder
+* `!py mona bytearray -b "\x00\x0a"`: generate a list of bad chars
+** `C:\Program Files\Windows Kits\10\Debuggers\bytearray.bin`: list location
+** `!py mona compare -f C:\Program Files\Windows Kits\10\Debuggers\bytearray.bin -a esp`: compare list with the stack starting at ESP
+
   
 Reverse:
 
