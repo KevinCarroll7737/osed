@@ -35,7 +35,7 @@ Basics:
 
 Mona:
 * `.load pykd.pyd`: load pykd
-* `!py mona config` confirm mona runs
+* `!py mona modules`: list modules
   
 Reverse:
 
