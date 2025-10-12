@@ -19,7 +19,7 @@ https://github.com/epi052/osed-scripts?tab=readme-ov-file#install-monash
 
 > Automatically attach to process (ex.: `PROCESS_NAME` = `syncbrs`)
 
-* `while ($true) {\\tsclient\shared\osed-scripts\attach-process.ps1 -process-name PROCESS_NAME -commands '.load pykd; g;`
+* `while ($true) {\\tsclient\local-share\attach-process.ps1 -process-name syncbrs -commands '.load pykd; g;'}`
 
 ## WinDBG
 
