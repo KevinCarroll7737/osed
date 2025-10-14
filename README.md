@@ -11,6 +11,7 @@
 4. Checking bad chars
 5. Redirecting execution flow
     1. `JMP ESP` (TIP: if application compiled with `DEP`, `JMP ESP` address must be in the `.text`)
+        1. msf-nasm_shell > `jmp esp` > `FFE4`
 7. Generating shellcode
 8. Getting the shellcode
 9. Improving the exploit
