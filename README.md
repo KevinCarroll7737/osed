@@ -10,7 +10,7 @@
     1. Increase buffer length (ex.: 800 -> 1500)
 4. Checking bad chars
 5. Redirecting execution flow
-    1. Increase buffer length (ex.: 800 -> 1500)
+    1. JMP ESP (if application compiled with `DEP`, `JMP ESP` address must be in the `.text`)
 7. Generating shellcode
 8. Getting the shellcode
 9. Improving the exploit
