@@ -6,12 +6,14 @@
 
 1. Crash the application
 2. Controlling EIP
-3. Locating space for BOF
-4. Checking bad chars
-5. Redirecting execution flow
-6. Generating shellcode
-7. Getting the shellcode
-8. Improving the exploit
+3. Locating space for BOF (350-400 bytes)
+3.1 not enough space:
+   3.1.1. Increase buffer length (ex.: 800 -> 1500)
+5. Checking bad chars
+6. Redirecting execution flow
+7. Generating shellcode
+8. Getting the shellcode
+9. Improving the exploit
 
 ## Links
 
