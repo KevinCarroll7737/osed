@@ -6,8 +6,8 @@
 
 1. Crash the application
 2. Controlling EIP
-3. Locating space for BOF (350-400 bytes)
-  1. Increase buffer length (ex.: 800 -> 1500)
+3. Locating space for BOF (350–400 bytes)
+    1. Increase buffer length (ex.: 800 -> 1500)
 4. Checking bad chars
 5. Redirecting execution flow
 6. Generating shellcode
