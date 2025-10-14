@@ -17,6 +17,7 @@
 7. Generating shellcode
 8. Getting the shellcode
 9. Improving the exploit
+    1. If multi-threaded application, add to msf-venom `EXITFUNC=thread`
 
 ## Links
 
