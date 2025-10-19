@@ -27,6 +27,7 @@ https://github.com/epi052/osed-scripts?tab=readme-ov-file#install-monash
 
 * `Set-ExecutionPolicy Bypass -Scope Process -Force`
 * `while ($true) {\\tsclient\local-share\attach-process.ps1 -process-name syncbrs -commands '.load pykd; g;'}`
+* `while ($true) {\\tsclient\local-share\attach-process.ps1 -path .\VulnApp1.exe -process-name VulnApp1 -commands '.load pykd; g;'}`
 
 ## WinDBG
 
