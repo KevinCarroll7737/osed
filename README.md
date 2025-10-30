@@ -12,7 +12,7 @@
 
 1. Crash the application
 2. Controlling EIP
-3. Locating space for BOF (350–400 bytes)
+3. Locating space for BOF (350–400 bytes) `dds esp+2c0 L4`
     1. Increase buffer length (ex.: 800 -> 1500)
 4. Checking bad chars
 5. Redirecting execution flow
