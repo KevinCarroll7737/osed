@@ -27,6 +27,7 @@
 
 ## Links
 
+* https://github.com/sebastian93921/OSED-Code-Snippets scripts for exploit phase
 * https://github.com/bugzzzhunter/OSEDscripts/ windbg python automation
 * https://github.com/epi052/osed-scripts?tab=readme-ov-file#install-monash install mona
 
