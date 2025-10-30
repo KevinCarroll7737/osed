@@ -2,6 +2,12 @@
 
 ![image](https://github.com/user-attachments/assets/1964c089-4a89-457b-b370-cbed76354f11)
 
+## Exploit Strategy
+
+* If EIP controllable and DEP off: direct shellcode jump.
+* If DEP on: plan ROP to call VirtualProtect/VirtualAlloc or find JIT/ret2libc equivalent.
+* If ASLR present: find module without ASLR/rebase or use info leaks.
+  
 ## Methodology
 
 1. Crash the application
