@@ -27,7 +27,8 @@
 
 ## Links
 
-https://github.com/epi052/osed-scripts?tab=readme-ov-file#install-monash
+* https://github.com/bugzzzhunter/OSEDscripts/ windbg python automation
+* https://github.com/epi052/osed-scripts?tab=readme-ov-file#install-monash install mona
 
 > Automatically attach to process (ex.: `PROCESS_NAME` = `syncbrs`)
 
