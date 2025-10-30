@@ -16,6 +16,7 @@
     1. Increase buffer length (ex.: 800 -> 1500)
 4. Checking bad chars
     1. `!py \\tsclient\local-share\srbx7_bads.py --generate -b 00`
+    2. `!py \\tsclient\local-share\srbx7_bads.py --address esp --bad 00 --start 01 --end 7f`
 6. Redirecting execution flow
     1. `JMP ESP` (TIP: if application compiled with `DEP`, `JMP ESP` address must be in the `.text`)
         1. `msf-nasm_shell` > `jmp esp` > `FFE4`
