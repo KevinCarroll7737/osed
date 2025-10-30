@@ -15,7 +15,8 @@
 3. Locating space for BOF (350–400 bytes) (`dds esp+2c0 L4`)
     1. Increase buffer length (ex.: 800 -> 1500)
 4. Checking bad chars
-5. Redirecting execution flow
+    1. `!py \\tsclient\local-share\srbx7_bads.py
+6. Redirecting execution flow
     1. `JMP ESP` (TIP: if application compiled with `DEP`, `JMP ESP` address must be in the `.text`)
         1. `msf-nasm_shell` > `jmp esp` > `FFE4`
         2. Confirm the opcode at the address: `u 10090c83` > `ffe4`
