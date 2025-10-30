@@ -35,7 +35,7 @@
 
 * `Set-ExecutionPolicy Bypass -Scope Process -Force`
 * `while ($true) {\\tsclient\local-share\attach-process.ps1 -process-name syncbrs -commands '.load pykd.pyd; g;'}`
-* `while ($true) {\\tsclient\local-share\attach-process.ps1 -path .\VulnApp1.exe -process-name VulnApp1 -commands '.load pykd; g;'}`
+* `while ($true) {\\tsclient\local-share\attach-process.ps1 -path .\VulnApp1.exe -process-name VulnApp1 -commands '.load pykd.pyd; g;'}`
 
 ## WinDBG
 
